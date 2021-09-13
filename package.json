@@ -1,0 +1,23 @@
+{
+  "name": "lolijam-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "@supabase/supabase-js": "^1.22.5",
+    "an-array-of-english-words": "^2.0.0",
+    "discord.js": "^12.5.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "https": "^1.0.0",
+    "nodemon": "^2.0.12",
+    "urban-dictionary": "^3.0.2"
+  }
+}
