@@ -62,7 +62,7 @@ client.on("message", async (message) => {
 
       // Find in our `allWords` array (contains 275k english words)
       const resultAllWords = allWords.find((w) => w === word);
-      console.log("resultAllWords:", word);
+      console.log("resultAllWords:", resultAllWords);
 
       // If not in `allWords` lookup in urban dictionary
       let resultUrbanDictionary;
