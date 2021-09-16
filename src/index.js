@@ -140,7 +140,7 @@ const getPositiveEmoji = () => {
 };
 
 const getNegativeEmoji = () => {
-  const emojis = ["😑", "👎", "🙅‍♂️", "😖", "🤬", "🤮"];
+  const emojis = ["😑", "🙅‍♂️", "😖", "🤬", "😦", "🥴", "😷"];
   const index = Math.floor(Math.random() * emojis.length);
   return emojis[index];
 };
